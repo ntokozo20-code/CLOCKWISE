@@ -8,9 +8,19 @@
 </head>
 <body>
 <!-- Clock Layout -->
- <div class="clock-container">
-    <h1>Digital Clock</h1>
-    <div id="clock">00:00:00 AM</div>
+ <div class="container">
+    <h1>Johannesburg, South Africa</h1>
+
+    <div class="clock">
+      <span id="hours">00</span> :
+      <span id="minutes">00</span> :
+      <span id="seconds">00</span>
+      <span id="ampm">AM</span>
+    </div>
+
+    <div class="date" id="date">Monday, 01 January 2025</div>
+
+    <button id="toggleFormat">Switch to 24-Hour</button>
   </div>
 
   <script src="script.js"></script> 
