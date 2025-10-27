@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Digital Clock</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<!-- Clock Layout -->
- <div class="container">
-    <h1>Johannesburg, South Africa</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Clock Layout -->
+    <div class="container">
+      <h1>Johannesburg, South Africa</h1>
 
-    <div class="clock">
-      <span id="hours">00</span> :
-      <span id="minutes">00</span> :
-      <span id="seconds">00</span>
-      <span id="ampm">AM</span>
+      <div class="clock">
+        <span id="hours">00</span> : <span id="minutes">00</span> :
+        <span id="seconds">00</span>
+        <span id="ampm">AM</span>
+      </div>
+
+      <div class="date" id="date">Monday, 01 January 2025</div>
+
+      <button id="toggleFormat">Switch to 24-Hour</button>
     </div>
 
-    <div class="date" id="date">Monday, 01 January 2025</div>
-
-    <button id="toggleFormat">Switch to 24-Hour</button>
-  </div>
-
-  <script src="script.js"></script> 
-    
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
